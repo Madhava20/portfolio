@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Madhava Reddy
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            a:link 
+            {
+                color: rgb(38, 207, 38);
+                text-decoration: none;
+            }
+            a:visited 
+            {
+                color: rgb(38, 207, 38);
+                text-decoration: none;
+            }
+            a:hover 
+            {
+                color: rgb(38, 207, 38);
+                background-color:transparent;
+                text-decoration: none;
+            }
+            a:active 
+            {
+                color: rgb(206, 206, 206);
+                background-color: transparent;
+                text-decoration: none;
+            }
+            body{
+                background-color: rgb(29, 29, 29);
+                color: rgb(206, 206, 206);
+                padding: 20px;
+            }
+            .column{
+                border-radius: 1%;
+                color: rgb(206, 206, 206);
+                background-color: rgb(10, 10, 10);
+                box-shadow:0px 0px 20px rgb(214, 214, 214);
+                height: 47vw;
+            }
+            .marginbar{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 45px;
+                margin-right: 45px;
+                border: 2px solid rgb(38, 207, 38);
+            }
+            body,h1,h2,h3,h4,h5,h6,div,p 
+            {
+                font-family: "Roboto", sans-serif
+            }
+            .green{
+                color: rgb(38, 207, 38);
+            }
+            .button{
+                background-color: rgb(10, 10, 10);
+                border: 0.2vw solid rgb(38, 207, 38);
+                padding: 0.7vw 2vw;
+                font-size: 1.5vw;
+                border-radius: 10px;
+                text-align: center;
+                transition-duration: 0.4s;
+                color: rgb(206, 206, 206);
+                margin-right: auto;
+                margin-left: auto;
+            }
+            .button:hover{
+                background-color: rgb(38, 207, 38);
+                color: rgb(10, 10, 10);
+                font-size: 2vw;
+            }
+            .social{
+                width: 3.5vw;
+                padding-top: 2vw;
+            }
+            .social:hover{
+                width: 4.5vw;
+                padding-top: 1vw;
+            }
+        </style>
+    </head>
+    <body >
+        <!--        Left Column        -->
+        <div class="column" id="left" style="float: left;width: 23%;overflow: auto;">
+            <div style="padding-top: 10%;padding-left: 15%;padding: right 15%;margin-left: auto;margin-right: auto;">
+                <!--    Photo     -->
+                <img src="me.jpg" style="width: 80%;border-radius: 50%;box-shadow:0px 0px 30px rgb(38, 207, 38);" >
+            </div>
+            <div>
+                <!--     Name     -->
+                <h1 class="green" style="text-align: center;font-size: 2vw;margin-left: auto;margin-right: auto;">
+                    Nayan Verma
+                </h1>
+            </div>
+            <div style="text-align: center;margin-bottom: 4vw;">
+                <!--     All the Buttons    -->
+                <h3 style="padding-top: 1vw;"><a class="button" href="#Introduction">Introduction</a></h3>
+                <h3 style="padding-top: 1vw;"><a class="button" href="#Education">Education</a></h3>
+                <h3 style="padding-top: 1vw;"><a class="button" href="#Skills">Skills</a></h3>
+                <h3 style="padding-top: 1vw;"><a class="button" href="#Experience">Experience</a></h3>
+               
+            </div>
+        </div>
+        <!--   Right Column    -->
+        <div class="column" id="right"  style="float: right;width: 73%;overflow: auto;">
+            <!--     Introduction   -->
+            <div id="Introduction" style="padding: 4vw;padding-bottom: 2vw;"> 
+                <p >
+                    <h2 style="font-size: 1.7vw;">Hi<br> I am <span class="green">Nayan</span>,</h2>
+                    <h3 style="font-size: 1.3vw;">I am from Andhra Pradesh and currenty persuing my BTech in CSE from VIT-AP.<br>
+                    I like to solve day to day problems. <br>
+                    I have a keen interest in android development and i also like to do competetive programming.<br>
+                    Apart from these in my free time i like to listen to songs and watch web series and movies.<br>
+                    I am a easy going person and doesn't take stress over small things and try to solve those with calmness.</h3>
+                </p>
+            </div>
+            <hr class="marginbar">
+            <!--      Education      -->
+            <div id="Education" style="padding: 4vw;padding-top: 2vw;">
+                <p>
+                    <img src="books.png" alt="Book" style="float: left;width: 3.1vw;height:3.1vw;">
+                    <h1 style="padding-left: 5vw;font-size: 2vw;">Education Details</h1>
+                </p>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;"><span class="green" style="font-size: 2.2vw;">:-> </span>Vellore Institute of Technology, Amravati</h2>
+                    <div style="padding-left: 4vw;">
+                        <h3>
+                            <img src="calendar.png" alt="calendar" style="float: left;width: 2.7vw;height:1.7vw;">
+                            <span class="green" style="padding-left: 1vw;font-size: 1.3vw;">Aug 2021  -  Present</span>
+                        </h3>
+                        <div style="padding-left: 4vw; font-size: 1.2vw;">
+                            Bachelor of Technology(<span class="green">BTech</span>) in Computer Science and Engineering(<span class="green">CSE</span>)
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;"><span class="green" style="font-size: 2.2vw;">:-> </span>Dr.Kishore's Ratnam High school, Nellore</h2>
+                    <div style="padding-left: 4vw;">
+                        <h3>
+                            <img src="calendar.png" alt="calendar" style="float: left;width: 2.7vw;height:1.7vw ;">
+                            <span class="green" style="padding-left: 1vw;font-size: 1.3vw;">2019  -  2021</span>
+                        </h3>
+                        <div style="padding-left: 4vw;font-size: 1.2vw;">
+                            <span class="green">CBSE</span> 12th Boards - <span class="green">90%</span> <br>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;"><span class="green" style="font-size:2.2vw;">:-> </span>Narayana Junior College , Nellore</h2>
+                    <div style="padding-left: 4vw;">
+                        <h3>
+                            <img src="calendar.png" alt="calendar" style="float: left;width: 2.7vw;height:1.7vw ;">
+                            <span class="green" style="padding-left: 1vw;font-size: 1.3vw;">2007  -  2019</span>
+                        </h3>
+                        <div style="padding-left: 4vw;font-size: 1.2vw;">
+                            <span class="green">SSC</span> 10th Boards - <span class="green"> 9.8 CGPA</span><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="marginbar">
+            <!--     Skills    -->
+            <div id="Skills" style="padding: 4vw;padding-top: 1vw;">
+                <img src="all skill.png" alt="all skill" style="width: 30vw;height: 25vw;float: right;padding-top: 4vw;" >
+                <p>
+                    <img src="skill.png" alt="Skills" style="float: left;width: 3vw;height:3vw ;">
+                    <h1 style="padding-left: 4vw;font-size: 2vw;">Skills</h1>
+                </p>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;">
+                        <span class="green" style="font-size: 2.2vw;">:-> </span>
+                        JAVA 
+                    </h2>
+                    
+                </div>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;">
+                        <span class="green" style="font-size: 2.2vw;">:-> </span>
+                        PYTHON
+                    </h2>
+                    
+                </div>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;">
+                        <span class="green" style="font-size: 2.2vw;">:-> </span>
+                        C++
+                    </h2>
+                    
+                </div>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;">
+                        <span class="green" style="font-size: 2.2vw;">:-> </span>
+                        Android Development</h2>
+                    
+                </div>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;">
+                        <span class="green" style="font-size: 2.2vw;">:-> </span>
+                        Web Development
+                    </h2>
+                    
+                </div>
+            </div>
+            <hr class="marginbar">
+            <!--     Experience    -->
+            <div id="Experience" style="padding: 4vw;padding-top: 2vw;">
+                <p>
+                    <img src="experience.png" alt="experience" style="float: left;width: 3.1vw;height:3.1vw ;">
+                    <h1 style="padding-left:5vw;font-size: 2vw;">Experience</h1>
+                </p>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;">
+                        <span class="green" style="font-size: 2.2vw;">:-> </span>
+                        Computer Society of India
+                    </h2>
+                    <h3 style="font-size: 1.3vw;">
+                        <img src="csi.jpeg" alt="csi" style="float: left;padding-left: 3vw;width: 11vw;padding-right: 3vw;">
+                        I am a core member in the Computer Society of India(<span class="green">CSI</span>) chapter of my university (<span class="green">VIT-AP</span>).
+                        <br>
+                        I am a part of <span class="green">V-OPEN SOURCE</span> team where we work on Open Source Projects.
+                        <br><br>
+                        <a href="https://csivitap.co.in/" target="_blank" >csivitap.co.in</a>
+                    </h3> 
+                    <br>
+                </div>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;">
+                        <span class="green" style="font-size: 2.2vw;">:-> </span>
+                        Codechef
+                    </h2>
+                    <h3 style="font-size: 1.3vw;">
+                        <img src="codechef.jpeg" alt="codechef" style="float: left;padding-left: 3vw;width: 11vw;padding-right: 3vw;">
+                        Currently i am a <span class="green">3 Star</span> coder at <span class="green">Codechef</span>
+                        <br>
+                        I have been doing competetive programming on <span class="green">Codechef</span> since <span class="green">Aug 2021</span>.
+                        <br>
+                        The language in which i code mostly is <span class="green">Java</span> but sometimes i use <span class="green">C++</span> and <span class="green">Python </span>also.
+                        <br><br>
+                        <a href="https://www.codechef.com/users/nayan_verma_14" target="_blank">My Codechef Profile</a>
+                    </h3> 
+                    <br>
+        
+            
+                        
